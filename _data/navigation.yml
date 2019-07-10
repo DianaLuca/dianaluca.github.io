@@ -1,0 +1,16 @@
+# Belongs at: /_data/navigation.yml
+
+- title: Home
+  url: /home
+#- title: Data Science
+#  url: /data_science
+#- title: ML
+#  url: /machine_learning
+#- title: Research
+#  url: /research
+#- title: Awards
+#  url: /awards
+- title: Data Science Projects
+  url: /projects
+- title: Resume
+  url: /cv

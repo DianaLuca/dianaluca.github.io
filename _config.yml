@@ -1,0 +1,8 @@
+name: Diana Luca github.io
+markdown: kramdown
+theme: jekyll-theme-architect
+title: Diana Luca
+description: Diana Luca's github.io page
+
+plugins:
+  - jekyll-redirect-from

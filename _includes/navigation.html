@@ -1,0 +1,18 @@
+<!-- Belongs at: /_includes/navigation.html -->
+
+<nav id="navbar" class="collapse navbar-collapse">
+    <div class="navContainer">
+    <ul class="nav navbar-nav">
+        {% assign links = site.data.navigation %}
+        {% for link in links %}
+            {% assign class = nil %}
+            {% if page.url contains link.url%}
+                {% assign class = 'currentNav' %}
+            {% endif %}
+            <li class="{{ class }}">
+              <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+  </div>
+</nav>
